@@ -23,10 +23,6 @@ declare module "sst" {
       "type": "sst.sst.Secret"
       "value": string
     }
-    "MyWeb": {
-      "type": "sst.aws.Nextjs"
-      "url": string
-    }
     "RemindersTable": {
       "name": string
       "type": "sst.aws.Dynamo"
